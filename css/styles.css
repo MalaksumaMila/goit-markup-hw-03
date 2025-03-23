@@ -36,6 +36,10 @@ main {
   flex-grow: 1;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -56,6 +60,7 @@ main {
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-menu-logo {
@@ -70,7 +75,7 @@ main {
   text-transform: uppercase;
   color: #4d5ae5;
   padding-left: 24px;
-  padding-right: 76px;
+  margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
   justify-content: space-between;
@@ -138,6 +143,7 @@ main {
 .hero {
   background-color: #2e2f42;
   margin-bottom: 120px;
+  padding: 188px 0;
 }
 
 .hero-container {
@@ -154,7 +160,6 @@ main {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  padding-top: 190px;
   padding-bottom: 45px;
   justify-content: center;
 }
@@ -174,7 +179,6 @@ main {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-  margin-bottom: 188px;
 }
 
 .hero-btn:hover,
@@ -185,7 +189,7 @@ main {
 /*features-title*/
 
 .features {
-  margin: 120px auto;
+  padding: 120px 0;
 }
 .features-title {
 }
@@ -195,6 +199,7 @@ main {
   gap: 24px;
 }
 .features-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-list-title {
@@ -203,6 +208,7 @@ main {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-list-text {
@@ -216,6 +222,7 @@ main {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -225,26 +232,25 @@ main {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 116px;
-  padding-bottom: 76px;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item-image {
 }
 
 .team-list-item-title-text {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-list-image-title {
@@ -268,7 +274,7 @@ main {
 /*portfolio*/
 
 .portfolio {
-  margin-top: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -278,15 +284,15 @@ main {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
   display: flex;
   justify-content: space-between;
-  gap: 22px;
-  padding-bottom: 154px;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-list-item {
 }
@@ -296,10 +302,9 @@ main {
 }
 
 .portfolio-list-subtitle-text {
-  padding-top: 32px;
-  padding-right: 16px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-list-subtitle {
@@ -308,6 +313,7 @@ main {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio--list-text {
@@ -321,13 +327,14 @@ main {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .container-footer {
-  padding-right: 16px;
+  /* padding-right: 16px;
   padding-top: 66px;
   padding-bottom: 134px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .footer-logo-link {
@@ -338,6 +345,8 @@ main {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
