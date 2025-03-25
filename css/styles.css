@@ -45,7 +45,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 /* Header */
@@ -74,10 +73,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-left: 24px;
-  margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   justify-content: space-between;
 }
 
@@ -111,10 +106,10 @@ img {
 }
 
 .header-contacts {
+  display: flex;
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-contacts-menu {
