@@ -84,9 +84,11 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
+  /* padding-top: 24px;
   padding-bottom: 24px;
-  justify-content: space-between;
+  justify-content: space-between; */
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .header-menu-list {
@@ -249,6 +251,7 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-list-item {
@@ -304,6 +307,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .portfolio-list-item {
 }
 
